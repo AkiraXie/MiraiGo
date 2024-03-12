@@ -7,16 +7,16 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/Mrs4s/MiraiGo/client/internal/network"
-	"github.com/Mrs4s/MiraiGo/topic"
+	"github.com/AkiraXie/MiraiGo/client/internal/network"
+	"github.com/AkiraXie/MiraiGo/topic"
 
-	"github.com/Mrs4s/MiraiGo/client/pb/qweb"
-	"github.com/Mrs4s/MiraiGo/internal/proto"
+	"github.com/AkiraXie/MiraiGo/client/pb/qweb"
+	"github.com/AkiraXie/MiraiGo/internal/proto"
 
 	"github.com/pkg/errors"
 
-	"github.com/Mrs4s/MiraiGo/client/pb/channel"
-	"github.com/Mrs4s/MiraiGo/utils"
+	"github.com/AkiraXie/MiraiGo/client/pb/channel"
+	"github.com/AkiraXie/MiraiGo/utils"
 )
 
 type (

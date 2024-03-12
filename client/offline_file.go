@@ -3,9 +3,9 @@ package client
 import (
 	"github.com/pkg/errors"
 
-	"github.com/Mrs4s/MiraiGo/client/internal/network"
-	"github.com/Mrs4s/MiraiGo/client/pb/cmd0x346"
-	"github.com/Mrs4s/MiraiGo/internal/proto"
+	"github.com/AkiraXie/MiraiGo/client/internal/network"
+	"github.com/AkiraXie/MiraiGo/client/pb/cmd0x346"
+	"github.com/AkiraXie/MiraiGo/internal/proto"
 )
 
 func init() {
