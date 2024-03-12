@@ -1,6 +1,6 @@
 package tlv
 
-import "github.com/Mrs4s/MiraiGo/binary"
+import "github.com/AkiraXie/MiraiGo/binary"
 
 // temporary solution
 
