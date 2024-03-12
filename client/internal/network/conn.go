@@ -5,6 +5,7 @@ import (
 	"io"
 	"net"
 	"sync"
+	"time"
 
 	"github.com/pkg/errors"
 )
@@ -36,7 +37,7 @@ func (t *TCPClient) UnexpectedDisconnect(f func(*TCPClient, error)) {
 
 func (t *TCPClient) Connect(addr string) error {
 	t.Close()
-	conn, err := net.Dial("tcp", addr)
+	conn, err := net.DialTimeout("tcp", addr, 120*time.Second)
 	if err != nil {
 		return errors.Wrap(err, "dial tcp error")
 	}
